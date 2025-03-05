@@ -20,3 +20,7 @@ To make the script capable of running in real time with multiple cameras, I also
 <ins>Movement mask</ins>
 
 <img width="300" alt="" src="https://github.com/user-attachments/assets/46401ff6-493c-44b8-ac2b-f0ea40fb09fd">
+
+## Setup
+1. Upload .mp4 files to the In directory
+2. Run example.ipynb
