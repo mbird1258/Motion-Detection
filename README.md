@@ -1,4 +1,5 @@
 # Motion Detection
+Blog post: [https://matthew-bird.com/blogs/Motion%20Detection.html](https://matthew-bird.com/blogs/Motion%20Detection.html)
 
 ## Motivation
 Current systems for motion activated cameras cost quite a large sum, and thus I thought it would be an interesting project to see how cheap I can get a motion activated camera to be using an ESP32 microcontroller connected to a camera communicating to a central hub. Although I never got around to testing with an ESP32, the code still worked on videos I tested from online. 
