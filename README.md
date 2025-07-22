@@ -8,6 +8,8 @@ Similar to my volleyball project [here](https://matthew-bird.com/blogs/Body-Worl
 
 To make the script capable of running in real time with multiple cameras, I also chose to resize the image to 192 x 108 for the median calculations, as that was originally accounting for 95% of the total processing time. 
 
+The script saves all the scenes of the input video where movement is detected as a series of videos in an output directory. 
+
 ### Images (taken from the Volleyball project)
 <ins>Input</ins>
 
