@@ -1,7 +1,7 @@
 # Motion Detection
 
 ## Motivation
-Current systems for motion activated cameras cost quite a large sum, and thus I thought it would be an interesting project to see how cheap I can get a motion activated camera to be using an ESP32 microcontroller connected to a camera communicating to a central hub. 
+Current systems for motion activated cameras cost quite a large sum, and thus I thought it would be an interesting project to see how cheap I can get a motion activated camera to be using an ESP32 microcontroller connected to a camera communicating to a central hub. Although I never got around to testing with an ESP32, the code still worked on videos I tested from online. 
 
 ## Method
 Similar to my volleyball project [here](https://matthew-bird.com/blogs/Body-World-Eye-Mapping.html), I take the median of the past n frames to create an estimate of what the background should look like with no moving object in it. Then, I take the difference between the current image and the background, and if the proportion of pixels with a difference above a threshold is above a threshold, motion is detected and a video is saved. 
